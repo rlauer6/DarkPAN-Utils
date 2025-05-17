@@ -1,0 +1,17 @@
+Sat May 17 09:53:19 2025  Rob Lauer  <rlauer6@comcast.net>
+
+	[0.01]: BigBang!
+	* ChangeLog: new
+	* Makefile: new
+	* README.md: new
+	* bin/darkpan-doc.pl: new
+	* buildspec.yml: new
+	* lib/DarkPAN/Utils.pm: new
+	* lib/DarkPAN/Utils/Docs.pm: new
+	* requires: new
+	* t/00-darkpan.t: new
+	* test-requires: new
+	* .gitignore: new
+
+
+

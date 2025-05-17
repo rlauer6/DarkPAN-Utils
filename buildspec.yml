@@ -1,0 +1,23 @@
+project:
+  description: DarkPAN::Utils
+  author:
+    name: Rob Lauer
+    mailto: rclauer@gmail.com
+pm_module: DarkPAN::Utils
+min-perl-version: 5.010
+dependencies:
+  requires: requires
+  test_requires: test-requires
+path:
+  pm_module: lib
+  tests: t
+extra-files:
+resources:
+  homepage: http://github.com/rlauer6/DarkPAN-Utils
+  bugtracker:
+    web: http://github.com/rlauer6/DarkPAN-Utils
+    mailto: rclauer@gmail.com
+  repository:
+    url: git://github.com/rlauer6/DarkPAN-Utils.git
+    web: http://github.com/rlauer6/DarkPAN-Utils
+    type: 'git'
