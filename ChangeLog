@@ -1,3 +1,10 @@
+Tue Oct 21 08:00:04 2025  Rob Lauer  <rlauer6@comcast.net>
+
+	[0.02]:
+	* lib/DarkPAN/Utils.pm: version bump
+	* lib/DarkPAN/Utils/Docs.pm
+	- + url_prefix
+
 Sat May 17 09:53:19 2025  Rob Lauer  <rlauer6@comcast.net>
 
 	[0.01]: BigBang!

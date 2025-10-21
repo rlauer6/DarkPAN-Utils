@@ -24,7 +24,7 @@ Readonly our $BASE_URL => q{};
 
 use parent qw(Class::Accessor::Validated);
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 our @EXPORT_OK = qw(parse_distribution_path);
 

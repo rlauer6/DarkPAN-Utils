@@ -13,12 +13,13 @@ use Scalar::Util qw(openhandle);
 use Text::Markdown::Discount qw(markdown);
 
 our %ATTRIBUTES = (
-  text     => 1,
-  pod      => 0,
-  code     => 0,
-  sections => 0,
-  markdown => 0,
-  html     => 0,
+  text       => 1,
+  pod        => 0,
+  code       => 0,
+  sections   => 0,
+  markdown   => 0,
+  html       => 0,
+  url_prefix => 0,
 );
 
 __PACKAGE__->setup_accessors( keys %ATTRIBUTES );
@@ -61,7 +62,7 @@ sub parse_pod {
 
   my $fh = IO::Scalar->new( \$text );
 
-  my @result = extract_pod( $fh, { markdown => 1 } );
+  my @result = extract_pod( $fh, { markdown => 1, url_prefix => $self->get_url_prefix } );
 
   close $fh;
 
