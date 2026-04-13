@@ -1,3 +1,8 @@
+*.diffs
+*.lst
 resources
 *.tar.gz
 provides
+*.tmpl
+lib/**/*.pm
+test-dpu.pl
