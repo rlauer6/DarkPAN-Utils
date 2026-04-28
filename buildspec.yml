@@ -1,3 +1,4 @@
+---
 project:
   description: DarkPAN::Utils
   author:
@@ -10,14 +11,18 @@ dependencies:
   test_requires: test-requires
 path:
   pm_module: lib
+  exe_files: bin
   tests: t
 extra-files:
+  - ChangeLog
+  - share:
+      - README.md
 resources:
-  homepage: http://github.com/rlauer6/DarkPAN-Utils
   bugtracker:
-    web: http://github.com/rlauer6/DarkPAN-Utils
     mailto: rclauer@gmail.com
+    web: https://github.com/rlauer6/DarkPAN-Utils/issues
+  homepage: https://github.com/rlauer6/DarkPAN-Utils
   repository:
-    url: git://github.com/rlauer6/DarkPAN-Utils.git
-    web: http://github.com/rlauer6/DarkPAN-Utils
-    type: 'git'
+    type: git
+    url: git@github.com:rlauer6/DarkPAN-Utils.git
+    web: https://github.com/rlauer6/DarkPAN-Utils

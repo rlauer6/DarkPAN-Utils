@@ -1,3 +1,26 @@
+Tue Apr 28 16:01:06 2026  Rob Lauer  <rclauer@gmail.com>
+
+	[1.1.0]: CPAN::Maker::Bootstrap refactor
+	* .gitignore
+	- *.crit, *.tdy, *-review-2*.pod/cod/annotate, extra-files
+	* Makefile: updated from CPAN::Maker::Bootstrapper
+	* README.md: generated
+	* buildspec.yml
+	- exe_files, extra-files
+	* test-requires: -Test::More (core)
+
+	[1.1.0]: new
+	* .includes/git.mk: new
+	* .includes/help.mk: new
+	* .includes/perl.mk: new
+	* .includes/update.mk: new
+	* .includes/upgrade.mk: new
+	* cpanfile: new
+
+	[1.1.0]: renamed
+	* .includes/release-notes.mk: renamed
+	* .includes/version.mk: renamed
+
 Mon Apr 13 09:28:48 2026  Rob Lauer  <rclauer@gmail.com>
 
 	[1.0.0]:

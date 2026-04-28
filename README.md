@@ -1,3 +1,23 @@
+# Table of Contents
+
+* [NAME](#name)
+* [SYNOPSIS](#synopsis)
+* [DESCRIPTION](#description)
+* [CONSTRUCTOR](#constructor)
+  * [new](#new)
+    * [Attributes](#attributes)
+* [METHODS AND SUBROUTINES](#methods-and-subroutines)
+  * [parse\_distribution\_path](#parse\distribution\path)
+  * [find\_module](#find\module)
+  * [extract\_file](#extract\file)
+  * [extract\_module](#extract\module)
+  * [fetch\_darkpan\_index](#fetch\darkpan\index)
+  * [fetch\_package](#fetch\package)
+  * [init\_logger](#init\logger)
+  * [fetch\_options](#fetch\options)
+* [AUTHOR](#author)
+* [SEE ALSO](#see-also)
+* [LICENSE](#license)
 # NAME
 
 DarkPAN::Utils - utilities for working with a DarkPAN repository

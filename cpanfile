@@ -1,0 +1,13 @@
+requires "IO::Socket::SSL", "0";
+requires "List::Util", "0";
+requires "Net::SSLeay", "0";
+requires "Archive::Tar", "3.02";
+requires "Class::Accessor::Validated", "0.04";
+requires "HTTP::Tiny", "0.088";
+requires "IO::Scalar", "2.113";
+requires "IO::Uncompress::Gunzip", "2.213";
+requires "Log::Log4perl", "1.57";
+requires "Log::Log4perl::Level", "0";
+requires "Pod::Extract", "0.02";
+requires "Readonly", "2.05";
+requires "Text::Markdown::Discount", "0.18";
